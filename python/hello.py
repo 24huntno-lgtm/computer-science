@@ -1,9 +1,5 @@
-row = 1
+Num1 = int(input("Enter num1: "))
+Num2 = int(input("Enter num2: "))
 
-while row <= 3:
-    col = 1
-    while col <= 3:
-        print(row * col, end= "")
-        col += 1
-    print ()
-    row += 1
+result = Num1 - Num2
+print(result)
